@@ -10,9 +10,15 @@ cd rpg-app
 ```
 ## Note
 
+使用 RPGJS 開發，安裝 NVM 與 NodeJS，用 junkhunt.net 產生繪製角色，LLM 使用 Google，地圖使用 Tiled's 修改。
+
 - https://playground.rpgjs.dev/
 
 - https://junkhunt.net/vx/charachip.shtml
+
+- https://aistudio.google.com/prompts/new_chat
+
+- https://www.mapeditor.org/
 
 ```
 npx degit rpgjs/starter my-rpg-game

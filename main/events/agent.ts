@@ -1,8 +1,8 @@
 import { RpgEvent, EventData, RpgPlayer } from '@rpgjs/server'
-
+import { API_KEY } from './llmapi-env';
 import { GoogleGenerativeAI } from "@google/generative-ai"
 
-const genAI = new GoogleGenerativeAI("APIKEY");
+const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 @EventData({
